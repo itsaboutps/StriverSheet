@@ -18,8 +18,20 @@ public class SetMatrixZero {
         
         // traverse the array -> iterate through row and then column 
         
-        bruteForceApproach(matrix, row, column);
+        bruteForceApproach(matrix, row, column); //n^3 time complexity
+        betterApproach(matrix,row,column);
+        optimalApproach(matrix,row,column);
         
+    }
+
+    private static void optimalApproach(int[][] matrix, int row, int column) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'optimalApproach'");
+    }
+
+    private static void betterApproach(int[][] matrix, int row, int column) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'betterApproach'");
     }
 
     private static void bruteForceApproach(int[][] matrix, int row, int column) {
