@@ -3,7 +3,7 @@ package LinkedList.LearnLinkedList;
 import java.util.Scanner;
 
 public class DeleteNode {
-    static Node head = null;
+    private static Node head = null;
 
 
     public static void main(String[] args) {
@@ -26,6 +26,11 @@ public class DeleteNode {
     //delete a position n;
     private static void delete(int n) {
         Node temp1 = head;
+
+        if(n==1){
+            head = temp1.next;
+            return;
+        }
 
         for (int i = 0; i < n-2; i++) {
             temp1 = temp1.next;
