@@ -13,12 +13,7 @@ public class ReverseLL {
 
 
         head = reverse(head);
-        print(head);
-
-
-
-
-        
+        print(head);        
     }
 
     static Node insert(Node head , int val){
